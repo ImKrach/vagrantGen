@@ -15,7 +15,7 @@ echo
 case $installVirtualbox in
     1)
         # On vérifie d'abord que Virtualbox n'est pas déjà installé sur la machine
-        if vboxmanage --version 2>&1/dev/null ; then
+        if vboxmanage --version > /dev/null 2>&1 ; then
             echo "Virtualbox est déjà installé sur cette machine"
         else
             echo "Téléchargement de Virtualbox"
@@ -31,7 +31,7 @@ case $installVirtualbox in
         ;;
     2)
         # Si Virtualbox est bien installé, ça va on peut continuer le script
-        if vboxmanage --version 2>&1/dev/null ; then
+        if vboxmanage --version > /dev/null 2>&1 ; then
             echo "Nous avons détecté une version de Virtualbox existante, l'assistant d'installation peut continuer"
             echo
             echo
@@ -57,7 +57,7 @@ echo
 case $installVagrant in
     1)
         # On vérifie d'abord que Vagrant n'est pas déjà installé sur la machine
-        if vagrant -v 2>&1/dev/null ; then
+        if vagrant -v > /dev/null 2>&1 ; then
             echo "Vagrant est déjà installé sur cette machine"
         else
             echo "Téléchargement de Vagrant"
@@ -69,7 +69,7 @@ case $installVagrant in
         ;;
     2)
         # Si Vagrant est bien installé, ça va on peut continuer le script
-        if vagrant -v 2>&1/dev/null ; then
+        if vagrant -v > /dev/null 2>&1 ; then
             echo "Nous avons détecté une version de Vagrant existante, l'assistant d'installation peut continuer"
         # Si Vagrant n'a pas été installé, le script ne pourra continuer
         else
