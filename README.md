@@ -1,12 +1,12 @@
 ## Vagrant configurator
-:camel: :man_with_turban: :camel:
+:man_with_turban::speech_balloon:  :camel:
 
 ### Démarrer le script
 `bash install.sh`
 
 
 ### Etape d'installation
-Ce script propose l'installation de Virtualbox et Vagrant.
+Ce script propose l'installation de [Virtualbox](https://www.virtualbox.org/wiki/Documentation) et [Vagrant](https://www.vagrantup.com/intro/index.html).
 Si l'un ou l'autre est déjà installé, le script peut tout de même continuer.
 Si l'utilisateur refuse d'installer l'un ou l'autre et qu'ils ne sont pas déjà installés, le script s'achève.
 
