@@ -1,8 +1,8 @@
 ## Vagrant configurator
-:man::speech_balloon::no_good:
-:man::anger::exclamation::punch::collision:
-:two_women_holding_hands::two_hearts:
-:bow::broken_heart:
+:man::speech_balloon::no_good:  
+:man::anger::exclamation::punch::collision:  
+:two_women_holding_hands::two_hearts:  
+:bow::broken_heart:  
 
 ### Démarrer le script
 `bash install.sh`
